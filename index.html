@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart School</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Smart School</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#admission">Admission</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Welcome to Smart School</h1>
+        <p>Empowering students for a bright future</p>
+        <a href="#admission" class="btn">Apply Now</a>
+      </div>
+    </section>
+  </header>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>We offer high-quality education with modern teaching methods and caring staff. Join our vibrant learning community!</p>
+  </section>
+
+  <section class="admission" id="admission">
+    <h2>Admission Form</h2>
+    <form class="registration-form">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <select required>
+        <option value="">Select Grade</option>
+        <option value="nursery">Nursery</option>
+        <option value="primary">Primary</option>
+        <option value="secondary">Secondary</option>
+      </select>
+      <textarea placeholder="Why do you want to join?" rows="4"></textarea>
+      <button type="submit" class="btn">Submit Application</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Smart School. All rights reserved.</p>
+  </footer>
+</body>
+</html>
